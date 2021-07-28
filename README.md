@@ -8,9 +8,7 @@ It uses the [Pulumi Microsoft Azure provider](https://www.pulumi.com/docs/intro/
 
 > Before you begin, install and configure Pulumi - https://www.pulumi.com/docs/get-started/azure/begin/
 
-## Configure
-
-Store Slack Signing Secret and GIPHY API Key as secrets (in Pulumi config)
+First, store Slack Signing Secret and GIPHY API Key as secrets (in Pulumi config)
 
 ```bash
 pulumi config set --secret giphyapikey <api key>
