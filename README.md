@@ -21,7 +21,13 @@ After that:
 pulumi up
 ```
 
-You should have the application public endpoint. Configure that in Slack and continue using it as specified in this tutorial - https://itnext.io/build-a-serverless-app-using-go-and-azure-functions-c4475398f4ab
+This will create the Azure infra:
+
+1. Resource Group
+1. App Service Plan
+1. App Service with required config
+
+Once complete, you should have the application public endpoint. Configure that in Slack and continue using it as specified in this tutorial - https://itnext.io/build-a-serverless-app-using-go-and-azure-functions-c4475398f4ab
 
 To clean up:
 
